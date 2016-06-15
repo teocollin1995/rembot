@@ -1,6 +1,7 @@
 import json
 import logging
 import urllib
+import urllib2
 from flask import Flask
 from google.appengine.api import urlfetch, memcache
 app = Flask(__name__)
