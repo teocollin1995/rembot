@@ -8,6 +8,7 @@ app = Flask(__name__)
 # Note: We don't need to call run() since our application is embedded within
 # the App Engine WSGI application server.
 token = "230588661:AAHxRwP4fH473Sva_XQqF8IAvJGfFtqRH_o"
+BASE_URL = 'https://api.telegram.org/bot' + TOKEN + '/'
 @app.route('/setwh')
 def set_webhook():
     """Exists to setup the webhook from the telegram api to the appengine site"""
