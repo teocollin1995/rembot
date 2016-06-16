@@ -2,7 +2,8 @@
 # including URL routing, versions, static file uploads, etc. See
 # https://developers.google.com/appengine/docs/python/config/appconfig
 # for details.
-app: rembot-1343
+application: rembot-1343
+version: 1
 runtime: python27
 api_version: 1
 threadsafe: yes
